@@ -53,7 +53,8 @@ body{overflow-x:hidden}
  .fab{width:48px;height:48px;border-radius:18px;font-size:22px}
  #toTop{left:calc(14px + env(safe-area-inset-left,0px));bottom:calc(16px + env(safe-area-inset-bottom,0px))}
  #zin,#zout{right:calc(12px + env(safe-area-inset-right,0px));bottom:auto}
- #zin{top:calc(50% - 56px)}#zout{top:calc(50% + 8px)}
+ #zin{top:auto;bottom:calc(180px + env(safe-area-inset-bottom,0px))}
+ #zout{top:auto;bottom:calc(126px + env(safe-area-inset-bottom,0px))}
 }
 @media (pointer:coarse){#q{font-size:16px}}
 #gl{position:fixed;top:0;left:0;right:0;bottom:0;inset:0;pointer-events:none;z-index:9999;overflow:hidden}
